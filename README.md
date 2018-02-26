@@ -3,12 +3,13 @@
 ### OS LAB Code: CS 693   CSE, 3rd Year, 2nd  Semester
 
 ## Lab assignment: 1
-__Starting point after loggin in a super-user__
+
+##### Starting point after loggin in a super-user
 ``` powershell
 [root@localhost RounakPolley]# pwd
 /home/student/RounakPolley
 ```
-1. __Create two sub directories teacher and students under college directory__
+##### 1. Create two sub directories teacher and students under college directory
 ``` powershell
 [root@localhost RounakPolley]# mkdir College
 [root@localhost RounakPolley]# cd College
@@ -19,13 +20,13 @@ total 8
 drwxr-xr-x. 2 root root 4096 Feb 26 11:55 student
 drwxr-xr-x. 2 root root 4096 Feb 26 11:51 teacher
 ```
-2. __In student sub directory create a file course.txt__
+##### 2. In student sub directory create a file course.txt
 ``` powershell
 [root@localhost College]# cd student
 [root@localhost student]# touch course.txt
 [root@localhost student]# vi course.txt
 ```
-3. __show the contents of the file course.txt__
+##### 3. show the contents of the file course.txt
 ``` powershell
 [root@localhost student]# cat course.txt
 OS LAB : CS 693, 3rd Year, 2nd Semester
@@ -36,11 +37,11 @@ Rounak Mukeerjee - C093
 Rumeet Prasad - C105
 Ritik Raj - NA
 ```
-4. __Move course.txt to teacher subdirectory__
+##### 4. Move course.txt to teacher subdirectory
 ``` powershell
 [root@localhost student]# mv student/course.txt teacher/
 ```
-5. __Copy the content of course.txt to newcourse.txt__
+##### 5. Copy the content of course.txt to newcourse.txt
 ``` powershell
 [root@localhost student]# cd ..
 [root@localhost College]# cp teacher/course.txt student/newcourse.txt
@@ -54,7 +55,7 @@ Rounak Mukeerjee - C093
 Rumeet Prasad - C105
 Ritik Raj - NA
 ```
-__After completing the steps__
+##### After completing the steps
 ``` powershell
 [root@localhost student]# cd ..
 [root@localhost College]# ls -R
