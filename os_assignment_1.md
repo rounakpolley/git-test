@@ -8,7 +8,7 @@
 
 ## Lab assignment: 1
 
-##### >_ Starting point after loggin in a super-user
+##### >_ Starting point after loggin in as super-user
 ``` powershell
 [root@localhost RounakPolley]# pwd
 /home/student/RounakPolley
