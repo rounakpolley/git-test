@@ -1,10 +1,14 @@
 # Kalyani Government Engineering College
 ### Department of Computer Science & Engineering
-### OS LAB Code: CS 693   CSE, 3rd Year, 2nd  Semester
+### OS-LAB : CS-693
+
+#### Name      : Rounak Polley
+#### Roll      : 10200115033
+#### Group No. : 
 
 ## Lab assignment: 1
 
-##### Starting point after loggin in a super-user
+##### >_ Starting point after loggin in a super-user
 ``` powershell
 [root@localhost RounakPolley]# pwd
 /home/student/RounakPolley
