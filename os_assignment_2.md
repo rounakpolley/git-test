@@ -36,6 +36,7 @@ int main(){
 	return 0;
 }
 ```
+OUTPUT
 ``` powershell
 Process id of program process : 2111 
 Process id of it's parent : 2030 
@@ -46,7 +47,7 @@ Process created using fork PID : 2112 - from Parent PID : 2111
 ```
 
 ##### 2. Create an Orphan process using C Code.
-``` c&nbsp; &nbsp; &nbsp; 
+``` c
 #include<stdio.h>
 #include<unistd.h>
 
@@ -68,6 +69,7 @@ int main(){
 	return 0;
 }
 ```
+OUTPUT
 ``` powershell
 [root@localhost RounakPolley]# ./a.out orphan.c
 This Is The Parent Process
@@ -94,6 +96,7 @@ int main(){
 	return 0;
 }
 ```
+OUTPUT
 ``` powershell
 [root@localhost RounakPolley]# ./a.out process_kill.c
 Killing this process : 1807
@@ -124,6 +127,7 @@ int main(){
 	return 0;
 }
 ```
+OUTPUT
 ``` powershell
 Enter two numbers
 12
@@ -156,6 +160,7 @@ int main(){
 	return 0;
 }
 ```
+OUTPUT
 ``` powershell
 ZOMBIE PROCESS
 This is the child process : 2016 2015
@@ -186,6 +191,7 @@ int main(){
 	return 0;
 }
 ```
+OUTPUT
 ``` powershell
 Process id of program process : 2111 
 Process id of it's parent : 2030 
@@ -216,6 +222,7 @@ int main(){
 	return 0;
 }
 ```
+OUTPUT
 ``` powershell
 Child extecutes before parent using wait()
 Child : 2104 , it's Parent: 2103
